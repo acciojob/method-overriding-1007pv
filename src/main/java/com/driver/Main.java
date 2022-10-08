@@ -5,11 +5,9 @@ class A{
         System.out.println("Invoking method from class A");
     }
 }
-
-class B {
+class B extends A{
     void meth(){
-
-        System.out.print("Method is overridden in extended class B");
+        System.out.println("Method is overridden in extended class B");
     }
 }
 
