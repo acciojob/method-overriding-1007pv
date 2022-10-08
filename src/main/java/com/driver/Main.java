@@ -2,7 +2,8 @@ package com.driver;
 
 class A{
     void meth(){
-        System.out.println("Invoking method from class A");
+
+        System.out.println("Method from class A");
     }
 }
 class B extends A{
