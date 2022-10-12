@@ -1,14 +1,15 @@
 package com.driver;
 
 class A{
-    void meth(){
+    String meth(){
 
-        System.out.println("Method from class A");
+        return "Method from class A";
     }
 }
 class B extends A{
-    void meth(){
-        System.out.println("Method is overridden in extended class B");
+    String meth(){
+
+        return "Method is overridden in extended class B";
     }
 }
 
